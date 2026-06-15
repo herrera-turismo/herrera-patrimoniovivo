@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ermita de la Virgen de Consolación - Herrera del Duque</title>
+  <link rel="stylesheet" href="../estilos.css">
+</head>
+<body class="detail-body">
+
+  <!-- Floating Back Button -->
+  <a href="../index.html" class="btn-back-floating" title="Volver a Portada">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m15 18-6-6 6-6"/>
+    </svg>
+  </a>
+
+  <!-- Header Banner Section -->
+  <header class="detail-hero">
+    <img src="../images/herrera_valle.jpg" alt="Ermita de la Virgen de Consolación" class="detail-hero-img" onerror="this.src='https://picsum.photos/seed/monument-5/800/500'">
+    <div class="detail-hero-overlay"></div>
+  </header>
+
+  <!-- Centered Content card with Overlap -->
+  <main class="container">
+    <article class="detail-card">
+      <div class="detail-category-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="21" x2="21" y2="21"></line><line x1="9" y1="21" x2="9" y2="9"></line><line x1="15" y1="21" x2="15" y2="9"></line><path d="M4 9h16"></path><path d="M4 5h16L12 2Z"></path></svg>
+        <span class="font-raleway" style="font-size:0.875rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase;">Patrimonio</span>
+      </div>
+
+      <h1 class="detail-title">Ermita de la Virgen de Consolación</h1>
+
+      <div class="custom-audio-player">
+          <audio id="audio-element" src="../audio/ermita.mp3"></audio>
+          <button id="audio-play-btn" class="audio-btn">
+            <!-- Play Icon -->
+            <svg id="play-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path d="M8 5v14l11-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            </svg>
+            <!-- Pause Icon -->
+            <svg id="pause-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" style="display:none;">
+              <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+            </svg>
+          </button>
+          <div class="player-info">
+            <div class="player-header">
+              <span class="player-title">Escuchar audioguía</span>
+              <span id="player-time" class="player-time">-0:00</span>
+            </div>
+            <div id="player-progress-container" class="progress-bar-container">
+              <div id="player-progress" class="progress-bar-fill"></div>
+            </div>
+          </div>
+         </div>
+
+      <div class="story-content">
+        <p class="detail-short-desc">Santuario de gran devoción popular situado en un entorno natural.</p>
+        <div>
+          <p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">La Ermita de Nuestra Señora de Consolación es uno de los principales lugares de devoción de Herrera del Duque. Se encuentra a unos 5 kilómetros al oeste del municipio, en un entorno natural privilegiado de los Valles de Consolación, rodeado de dehesas, pinos y alcornoques centenarios. La tradición cuenta que la imagen de la Virgen apareció en uno de estos árboles, lo que dio origen a su gran devoción popular.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">El edificio, de origen en el siglo XV y posteriormente reconstruido, presenta un estilo neoclásico y una sola nave sencilla pero armoniosa. En su interior destacan la capilla mayor y la cúpula decorada con una pintura que representa la coronación de la Virgen, acompañada por Jesús y el Padre Eterno.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">El retablo, de estilo barroco con influencias renacentistas, organiza en su centro la imagen de la Virgen de Consolación, una pequeña talla de madera policromada. Es costumbre que los fieles acudan a la ermita no solo por motivos religiosos, sino también para disfrutar del entorno natural, especialmente durante la romería que se celebra cada año, en la que el pueblo se desplaza hasta allí para honrar a su patrona en una jornada de convivencia y alegría.</p>
+        </div>
+      </div>
+
+      <div class="gallery-container">
+          <h3 class="gallery-title">Galería de fotos</h3>
+          <div class="gallery-grid">
+
+                <div class="gallery-item" onclick="openLightbox('../images/Virgen_consolacion/1.jpg')">
+                  <img src="../images/Virgen_consolacion/1.jpg" alt="Rincón de Ermita de la Virgen de Consolación" class="gallery-img" onerror="this.src='https://picsum.photos/seed/0/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/Virgen_consolacion/DSC_1182.jpg')">
+                  <img src="../images/Virgen_consolacion/DSC_1182.jpg" alt="Rincón de Ermita de la Virgen de Consolación" class="gallery-img" onerror="this.src='https://picsum.photos/seed/1/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/Virgen_consolacion/DSC_1342.jpg')">
+                  <img src="../images/Virgen_consolacion/DSC_1342.jpg" alt="Rincón de Ermita de la Virgen de Consolación" class="gallery-img" onerror="this.src='https://picsum.photos/seed/2/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/Virgen_consolacion/IMG_5828.jpg')">
+                  <img src="../images/Virgen_consolacion/IMG_5828.jpg" alt="Rincón de Ermita de la Virgen de Consolación" class="gallery-img" onerror="this.src='https://picsum.photos/seed/3/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/Virgen_consolacion/ermita_3.jpg')">
+                  <img src="../images/Virgen_consolacion/ermita_3.jpg" alt="Rincón de Ermita de la Virgen de Consolación" class="gallery-img" onerror="this.src='https://picsum.photos/seed/4/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/Virgen_consolacion/ermita_7.jpg')">
+                  <img src="../images/Virgen_consolacion/ermita_7.jpg" alt="Rincón de Ermita de la Virgen de Consolación" class="gallery-img" onerror="this.src='https://picsum.photos/seed/5/400/400'">
+                </div>
+
+          </div>
+         </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-logo">IES Benazaire · Ayuntamiento de Herrera del Duque</div>
+      <p>Una audioguía turística interactiva para que conozcas la esencia de nuestra tierra.</p>
+      <div class="footer-meta">Un proyecto Aprendizaje-Servicio de los alumnos/as del IES Benazaire.</div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close">&times;</button>
+    <img id="lightbox-img" class="lightbox-content" src="" alt="">
+  </div>
+
+  <script>
+    // Lightbox handling
+    function openLightbox(src) {
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      lightboxImg.src = src;
+      lightbox.style.display = 'flex';
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+
+    // Audio Player vanilla logic
+    const audio = document.getElementById('audio-element');
+    const playBtn = document.getElementById('audio-play-btn');
+    const playIcon = document.getElementById('play-icon');
+    const pauseIcon = document.getElementById('pause-icon');
+    const playerTime = document.getElementById('player-time');
+    const progressFill = document.getElementById('player-progress');
+    const progressContainer = document.getElementById('player-progress-container');
+
+    function formatTime(time) {
+      if (isNaN(time) || !isFinite(time)) return "0:00";
+      const minutes = Math.floor(time / 60);
+      const seconds = Math.floor(time % 60);
+      return minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
+    }
+
+    if (audio) {
+      audio.addEventListener('loadedmetadata', function() {
+        playerTime.textContent = "-" + formatTime(audio.duration);
+      });
+
+      audio.addEventListener('timeupdate', function() {
+        const current = audio.currentTime;
+        const duration = audio.duration || 1;
+        const pct = (current / duration) * 100;
+        progressFill.style.width = pct + "%";
+
+        const remaining = duration - current;
+        playerTime.textContent = "-" + formatTime(remaining);
+      });
+
+      audio.addEventListener('ended', function() {
+        playIcon.style.display = 'block';
+        pauseIcon.style.display = 'none';
+        progressFill.style.width = '0%';
+        playerTime.textContent = "-" + formatTime(audio.duration);
+      });
+
+      playBtn.addEventListener('click', function() {
+        if (audio.paused) {
+          audio.play().then(function() {
+            playIcon.style.display = 'none';
+            pauseIcon.style.display = 'block';
+          }).catch(function(err) {
+            console.error("Audio playback blocked or failed:", err);
+          });
+        } else {
+          audio.pause();
+          playIcon.style.display = 'block';
+          pauseIcon.style.display = 'none';
+        }
+      });
+
+      if (progressContainer) {
+        progressContainer.addEventListener('click', function(e) {
+          const rect = progressContainer.getBoundingClientRect();
+          const clickX = e.clientX - rect.left;
+          const width = rect.width;
+          const pct = clickX / width;
+          const seekTime = pct * (audio.duration || 0);
+          audio.currentTime = seekTime;
+        });
+      }
+    }
+  </script>
+
+</body>
+</html>

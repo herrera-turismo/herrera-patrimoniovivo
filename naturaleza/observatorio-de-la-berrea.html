@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Observatorio de la Berrea - Herrera del Duque</title>
+  <link rel="stylesheet" href="../estilos.css">
+</head>
+<body class="detail-body">
+
+  <!-- Floating Back Button -->
+  <a href="../index.html" class="btn-back-floating" title="Volver a Portada">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m15 18-6-6 6-6"/>
+    </svg>
+  </a>
+
+  <!-- Header Banner Section -->
+  <header class="detail-hero">
+    <img src="https://images.unsplash.com/photo-1484406566174-9da000fda645?auto=format&fit=crop&q=80&w=1000" alt="Observatorio de la Berrea" class="detail-hero-img" onerror="this.src='https://picsum.photos/seed/nature-1/800/500'">
+    <div class="detail-hero-overlay"></div>
+  </header>
+
+  <!-- Centered Content card with Overlap -->
+  <main class="container">
+    <article class="detail-card">
+      <div class="detail-category-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 22v-6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v6Z"></path><path d="M14 22v-4a2 2 0 0 0-2-2H10a2 2 0 0 0-2 2v4Z"></path><path d="M18 22V12a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v10Z"></path><path d="M22 22V8a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v14Z"></path></svg>
+        <span class="font-raleway" style="font-size:0.875rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase;">Patrimonio Natural</span>
+      </div>
+
+      <h1 class="detail-title">Observatorio de la Berrea</h1>
+
+      <div class="custom-audio-player">
+          <audio id="audio-element" src="../audio/berrea.mp3"></audio>
+          <button id="audio-play-btn" class="audio-btn">
+            <!-- Play Icon -->
+            <svg id="play-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path d="M8 5v14l11-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            </svg>
+            <!-- Pause Icon -->
+            <svg id="pause-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" style="display:none;">
+              <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+            </svg>
+          </button>
+          <div class="player-info">
+            <div class="player-header">
+              <span class="player-title">Escuchar audioguía</span>
+              <span id="player-time" class="player-time">-0:00</span>
+            </div>
+            <div id="player-progress-container" class="progress-bar-container">
+              <div id="player-progress" class="progress-bar-fill"></div>
+            </div>
+          </div>
+         </div>
+
+      <div class="story-content">
+        <p class="detail-short-desc">Un lugar privilegiado para observar la fauna salvaje.</p>
+        <div>
+          <p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">El Mirador de la Berrea se encuentra en el Monte Valdemoros, dentro de la Reserva Regional de Caza de Cíjara, en la Reserva de la Biosfera de La Siberia. Este espacio natural es uno de los más importantes de Extremadura y ofrece una experiencia única: contemplar y escuchar la berrea del ciervo rojo y la ronca del gamo en su hábitat natural.</p>
+<h3 class="serif text-2xl font-bold mt-8 mb-4 text-[#1a1a1a]">Ubicación y accesos</h3>
+El mirador está estratégicamente ubicado para observar los bosques mediterráneos, dehesas y embalses que caracterizan la zona.
+<ul class="list-disc pl-6 my-4 space-y-1.5 text-gray-700 font-raleway"><strong class="font-bold text-[#1a1a1a]">Cómo llegar:</strong>
+<li class="my-1.5 text-gray-700 font-sans leading-relaxed">Desde Herrera del Duque, tomar la carretera hacia Fuenlabrada de los Montes y desviarse por pista forestal hacia Monte Valdemoros.</li>
+<li class="my-1.5 text-gray-700 font-sans leading-relaxed">Desde Villarta de los Montes, tomar la pista hacia Helechosa de los Montes y seguir hasta Valdemoros.</li></ul>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">El mirador forma parte de la Ruta de la Reserva de Cíjara, un recorrido de 42 km que incluye otros puntos de interés, como el mirador Portillo del Cíjara, con vistas al embalse de García de Sola y a la fauna del entorno.</p>
+<h3 class="serif text-2xl font-bold mt-8 mb-4 text-[#1a1a1a]">Qué es la berrea</h3>
+La berrea es el ritual de celo del ciervo rojo, durante el cual los machos emiten bramidos potentes para atraer a las hembras y marcar su territorio. Durante este periodo se pueden observar combates entre machos por el liderazgo.
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">En paralelo, la ronca del gamo, un sonido más grave y gutural, puede escucharse durante el mismo periodo, añadiendo otra capa al espectáculo natural.</p>
+<h3 class="serif text-2xl font-bold mt-8 mb-4 text-[#1a1a1a]">Fechas y horarios de observación</h3>
+La berrea alcanza su máxima actividad entre mediados de septiembre y mediados de octubre, aunque la actividad exacta puede variar según las condiciones climáticas de cada año.
+<ul class="list-disc pl-6 my-4 space-y-1.5 text-gray-700 font-raleway"><li class="my-1.5 text-gray-700 font-sans leading-relaxed"><strong class="font-bold text-[#1a1a1a]">Máxima actividad:</strong> primeras semanas de la temporada.</li>
+<li class="my-1.5 text-gray-700 font-sans leading-relaxed"><strong class="font-bold text-[#1a1a1a]">Horarios recomendados:</strong> al amanecer y al atardecer, cuando los animales están más activos.</li></ul>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">La ronca del gamo suele comenzar un poco más tarde y puede prolongarse durante todo el mes de octubre.</p>
+<h3 class="serif text-2xl font-bold mt-8 mb-4 text-[#1a1a1a]">Fauna y flora</h3>
+El mirador ofrece la oportunidad de observar una fauna diversa y representativa de La Siberia:
+<ul class="list-disc pl-6 my-4 space-y-1.5 text-gray-700 font-raleway"><strong class="font-bold text-[#1a1a1a]">Fauna:</strong>
+<li class="my-1.5 text-gray-700 font-sans leading-relaxed">Ciervos, corzos, jabalíes y gamos</li>
+<li class="my-1.5 text-gray-700 font-sans leading-relaxed">Águila real, buitre negro, cigüeña negra</li></ul>
+<ul class="list-disc pl-6 my-4 space-y-1.5 text-gray-700 font-raleway"><strong class="font-bold text-[#1a1a1a]">Flora:</strong>
+<li class="my-1.5 text-gray-700 font-sans leading-relaxed">Encinas y alcornoques</li>
+<li class="my-1.5 text-gray-700 font-sans leading-relaxed">Matorral mediterráneo</li>
+<li class="my-1.5 text-gray-700 font-sans leading-relaxed">Vegetación de ribera</li></ul>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Este equilibrio de fauna y flora convierte al mirador en un lugar privilegiado para el ecoturismo y la observación de animales en libertad.</p>
+<h3 class="serif text-2xl font-bold mt-8 mb-4 text-[#1a1a1a]">El cielo nocturno</h3>
+La Siberia cuenta con más del 80% de su territorio con cielos libres de contaminación lumínica, lo que le ha otorgado la condición de Destino Starlight.
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Desde el mirador, la observación de estrellas se convierte en una experiencia única, especialmente en noches despejadas durante la temporada de berrea.</p>
+<h3 class="serif text-2xl font-bold mt-8 mb-4 text-[#1a1a1a]">Consejos para visitantes</h3>
+<li class="my-1.5 text-gray-700 font-sans leading-relaxed">Mantener silencio y distancia para no alterar a los animales.</li>
+<li class="my-1.5 text-gray-700 font-sans leading-relaxed">Llegar al amanecer o al atardecer para disfrutar de la máxima actividad de la berrea.</li>
+<li class="my-1.5 text-gray-700 font-sans leading-relaxed">Aunque la temporada principal es septiembre y octubre, el paisaje y la fauna pueden disfrutarse durante todo el año.</li>
+<h3 class="serif text-2xl font-bold mt-8 mb-4 text-[#1a1a1a]">Una experiencia para sentir</h3>
+El Mirador de la Berrea no es solo un punto de observación; es un lugar para escuchar, sentir y conectar con la naturaleza en estado puro. Cada bramido del ciervo y cada ronca del gamo forman parte de un espectáculo natural que se repite cada otoño gracias a la conservación del territorio.
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Visitar el Mirador de la Berrea es adentrarse en un espacio donde la naturaleza sigue intacta, la vida silvestre marca su propio ritmo y la experiencia de otoño se convierte en un recuerdo inolvidable.</p>
+        </div>
+      </div>
+
+      <div class="gallery-container">
+          <h3 class="gallery-title">Galería de fotos</h3>
+          <div class="gallery-grid">
+
+                <div class="gallery-item" onclick="openLightbox('../images/mirador/mira_1.jpg')">
+                  <img src="../images/mirador/mira_1.jpg" alt="Rincón de Observatorio de la Berrea" class="gallery-img" onerror="this.src='https://picsum.photos/seed/0/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/mirador/mira_2.jpg')">
+                  <img src="../images/mirador/mira_2.jpg" alt="Rincón de Observatorio de la Berrea" class="gallery-img" onerror="this.src='https://picsum.photos/seed/1/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/mirador/mira_3.jpg')">
+                  <img src="../images/mirador/mira_3.jpg" alt="Rincón de Observatorio de la Berrea" class="gallery-img" onerror="this.src='https://picsum.photos/seed/2/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/mirador/mira_4.webp')">
+                  <img src="../images/mirador/mira_4.webp" alt="Rincón de Observatorio de la Berrea" class="gallery-img" onerror="this.src='https://picsum.photos/seed/3/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/mirador/mira_5.jpg')">
+                  <img src="../images/mirador/mira_5.jpg" alt="Rincón de Observatorio de la Berrea" class="gallery-img" onerror="this.src='https://picsum.photos/seed/4/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/mirador/mira_6.jpeg')">
+                  <img src="../images/mirador/mira_6.jpeg" alt="Rincón de Observatorio de la Berrea" class="gallery-img" onerror="this.src='https://picsum.photos/seed/5/400/400'">
+                </div>
+
+          </div>
+         </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-logo">IES Benazaire · Ayuntamiento de Herrera del Duque</div>
+      <p>Una audioguía turística interactiva para que conozcas la esencia de nuestra tierra.</p>
+      <div class="footer-meta">Un proyecto Aprendizaje-Servicio de los alumnos/as del IES Benazaire.</div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close">&times;</button>
+    <img id="lightbox-img" class="lightbox-content" src="" alt="">
+  </div>
+
+  <script>
+    // Lightbox handling
+    function openLightbox(src) {
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      lightboxImg.src = src;
+      lightbox.style.display = 'flex';
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+
+    // Audio Player vanilla logic
+    const audio = document.getElementById('audio-element');
+    const playBtn = document.getElementById('audio-play-btn');
+    const playIcon = document.getElementById('play-icon');
+    const pauseIcon = document.getElementById('pause-icon');
+    const playerTime = document.getElementById('player-time');
+    const progressFill = document.getElementById('player-progress');
+    const progressContainer = document.getElementById('player-progress-container');
+
+    function formatTime(time) {
+      if (isNaN(time) || !isFinite(time)) return "0:00";
+      const minutes = Math.floor(time / 60);
+      const seconds = Math.floor(time % 60);
+      return minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
+    }
+
+    if (audio) {
+      audio.addEventListener('loadedmetadata', function() {
+        playerTime.textContent = "-" + formatTime(audio.duration);
+      });
+
+      audio.addEventListener('timeupdate', function() {
+        const current = audio.currentTime;
+        const duration = audio.duration || 1;
+        const pct = (current / duration) * 100;
+        progressFill.style.width = pct + "%";
+
+        const remaining = duration - current;
+        playerTime.textContent = "-" + formatTime(remaining);
+      });
+
+      audio.addEventListener('ended', function() {
+        playIcon.style.display = 'block';
+        pauseIcon.style.display = 'none';
+        progressFill.style.width = '0%';
+        playerTime.textContent = "-" + formatTime(audio.duration);
+      });
+
+      playBtn.addEventListener('click', function() {
+        if (audio.paused) {
+          audio.play().then(function() {
+            playIcon.style.display = 'none';
+            pauseIcon.style.display = 'block';
+          }).catch(function(err) {
+            console.error("Audio playback blocked or failed:", err);
+          });
+        } else {
+          audio.pause();
+          playIcon.style.display = 'block';
+          pauseIcon.style.display = 'none';
+        }
+      });
+
+      if (progressContainer) {
+        progressContainer.addEventListener('click', function(e) {
+          const rect = progressContainer.getBoundingClientRect();
+          const clickX = e.clientX - rect.left;
+          const width = rect.width;
+          const pct = clickX / width;
+          const seekTime = pct * (audio.duration || 0);
+          audio.currentTime = seekTime;
+        });
+      }
+    }
+  </script>
+
+</body>
+</html>

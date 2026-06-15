@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matanza Didáctica - Herrera del Duque</title>
+  <link rel="stylesheet" href="../estilos.css">
+</head>
+<body class="detail-body">
+
+  <!-- Floating Back Button -->
+  <a href="../index.html" class="btn-back-floating" title="Volver a Portada">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m15 18-6-6 6-6"/>
+    </svg>
+  </a>
+
+  <!-- Header Banner Section -->
+  <header class="detail-hero">
+    <img src="../images/matanza.jpg" alt="Matanza Didáctica" class="detail-hero-img" onerror="this.src='https://picsum.photos/seed/tradition-3/800/500'">
+    <div class="detail-hero-overlay"></div>
+  </header>
+
+  <!-- Centered Content card with Overlap -->
+  <main class="container">
+    <article class="detail-card">
+      <div class="detail-category-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+        <span class="font-raleway" style="font-size:0.875rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase;">Tradiciones</span>
+      </div>
+
+      <h1 class="detail-title">Matanza Didáctica</h1>
+
+      <div class="custom-audio-player">
+          <audio id="audio-element" src="../audio/matanza_didactica.mp3"></audio>
+          <button id="audio-play-btn" class="audio-btn">
+            <!-- Play Icon -->
+            <svg id="play-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path d="M8 5v14l11-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            </svg>
+            <!-- Pause Icon -->
+            <svg id="pause-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" style="display:none;">
+              <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+            </svg>
+          </button>
+          <div class="player-info">
+            <div class="player-header">
+              <span class="player-title">Escuchar audioguía</span>
+              <span id="player-time" class="player-time">-0:00</span>
+            </div>
+            <div id="player-progress-container" class="progress-bar-container">
+              <div id="player-progress" class="progress-bar-fill"></div>
+            </div>
+          </div>
+         </div>
+
+      <div class="story-content">
+        <p class="detail-short-desc">Un viaje a las raíces de la gastronomía extremeña y el aprovechamiento del cerdo.</p>
+        <div>
+          <p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">En Herrera del Duque, las tradiciones no solo se recuerda… se viven. La Matanza Didáctica es una experiencia única que acerca a visitantes y vecinos a una de las costumbres más arraigadas del mundo rural, desde una perspectiva educativa y respetuosa.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Durante generaciones, la matanza del cerdo ha sido un momento fundamental en la vida de muchas familias. Más allá de su importancia como fuente de alimento, representaba una jornada de trabajo colectivo, transmisión de conocimientos y convivencia. Hoy, esta tradición se recupera en formato didáctico para mostrar, paso a paso, cómo se realizaba este proceso, permitiendo comprender su valor cultural sin perder su esencia.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">A lo largo de la jornada, se pueden conocer las distintas fases de la elaboración de productos tradicionales. Desde la preparación inicial hasta la creación de embutidos como chorizos, morcillas o salchichón, cada detalle refleja el saber popular transmitido de generación en generación. Se trata de una oportunidad única para descubrir técnicas artesanales y entender el origen de algunos de los productos más representativos de la gastronomía local.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">La experiencia no termina con la explicación. Tras la parte didáctica, la celebración continúa en la Plaza de España del municipio, donde vecinos y visitantes se reúnen para degustar los productos elaborados. Este momento convierte la jornada en una auténtica fiesta de convivencia, donde los sabores tradicionales se disfrutan en comunidad y el ambiente invita a compartir.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">La Matanza Didáctica es mucho más que una demostración: es una forma de mantener viva la memoria colectiva, de valorar el trabajo artesanal y de reconectar con las raíces. Participar en esta experiencia es entender cómo se vivía antes, cuando el tiempo, el esfuerzo y la colaboración eran parte esencial del día a día. Visitar Herrera del Duque durante esta celebración es descubrir una tradición que no solo se explica y si quieres vivir esta tradición recuerda venir a principios de diciembre.</p>
+        </div>
+      </div>
+
+      <div class="gallery-container">
+          <h3 class="gallery-title">Galería de fotos</h3>
+          <div class="gallery-grid">
+
+                <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=800')">
+                  <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=800" alt="Rincón de Matanza Didáctica" class="gallery-img" onerror="this.src='https://picsum.photos/seed/0/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('https://images.unsplash.com/photo-1516685018646-548388e236c7?auto=format&fit=crop&q=80&w=800')">
+                  <img src="https://images.unsplash.com/photo-1516685018646-548388e236c7?auto=format&fit=crop&q=80&w=800" alt="Rincón de Matanza Didáctica" class="gallery-img" onerror="this.src='https://picsum.photos/seed/1/400/400'">
+                </div>
+
+          </div>
+         </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-logo">IES Benazaire · Ayuntamiento de Herrera del Duque</div>
+      <p>Una audioguía turística interactiva para que conozcas la esencia de nuestra tierra.</p>
+      <div class="footer-meta">Un proyecto Aprendizaje-Servicio de los alumnos/as del IES Benazaire.</div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close">&times;</button>
+    <img id="lightbox-img" class="lightbox-content" src="" alt="">
+  </div>
+
+  <script>
+    // Lightbox handling
+    function openLightbox(src) {
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      lightboxImg.src = src;
+      lightbox.style.display = 'flex';
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+
+    // Audio Player vanilla logic
+    const audio = document.getElementById('audio-element');
+    const playBtn = document.getElementById('audio-play-btn');
+    const playIcon = document.getElementById('play-icon');
+    const pauseIcon = document.getElementById('pause-icon');
+    const playerTime = document.getElementById('player-time');
+    const progressFill = document.getElementById('player-progress');
+    const progressContainer = document.getElementById('player-progress-container');
+
+    function formatTime(time) {
+      if (isNaN(time) || !isFinite(time)) return "0:00";
+      const minutes = Math.floor(time / 60);
+      const seconds = Math.floor(time % 60);
+      return minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
+    }
+
+    if (audio) {
+      audio.addEventListener('loadedmetadata', function() {
+        playerTime.textContent = "-" + formatTime(audio.duration);
+      });
+
+      audio.addEventListener('timeupdate', function() {
+        const current = audio.currentTime;
+        const duration = audio.duration || 1;
+        const pct = (current / duration) * 100;
+        progressFill.style.width = pct + "%";
+
+        const remaining = duration - current;
+        playerTime.textContent = "-" + formatTime(remaining);
+      });
+
+      audio.addEventListener('ended', function() {
+        playIcon.style.display = 'block';
+        pauseIcon.style.display = 'none';
+        progressFill.style.width = '0%';
+        playerTime.textContent = "-" + formatTime(audio.duration);
+      });
+
+      playBtn.addEventListener('click', function() {
+        if (audio.paused) {
+          audio.play().then(function() {
+            playIcon.style.display = 'none';
+            pauseIcon.style.display = 'block';
+          }).catch(function(err) {
+            console.error("Audio playback blocked or failed:", err);
+          });
+        } else {
+          audio.pause();
+          playIcon.style.display = 'block';
+          pauseIcon.style.display = 'none';
+        }
+      });
+
+      if (progressContainer) {
+        progressContainer.addEventListener('click', function(e) {
+          const rect = progressContainer.getBoundingClientRect();
+          const clickX = e.clientX - rect.left;
+          const width = rect.width;
+          const pct = clickX / width;
+          const seekTime = pct * (audio.duration || 0);
+          audio.currentTime = seekTime;
+        });
+      }
+    }
+  </script>
+
+</body>
+</html>
