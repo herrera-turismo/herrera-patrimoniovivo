@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feria de Agosto - Herrera del Duque</title>
+  <link rel="stylesheet" href="../estilos.css">
+</head>
+<body class="detail-body">
+
+  <!-- Floating Back Button -->
+  <a href="../index.html" class="btn-back-floating" title="Volver a Portada">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m15 18-6-6 6-6"/>
+    </svg>
+  </a>
+
+  <!-- Header Banner Section -->
+  <header class="detail-hero">
+    <img src="../images/agosto.jpg" alt="Feria de Agosto" class="detail-hero-img" onerror="this.src='https://picsum.photos/seed/festival-3/800/500'">
+    <div class="detail-hero-overlay"></div>
+  </header>
+
+  <!-- Centered Content card with Overlap -->
+  <main class="container">
+    <article class="detail-card">
+      <div class="detail-category-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+        <span class="font-raleway" style="font-size:0.875rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase;">Fiestas</span>
+      </div>
+
+      <h1 class="detail-title">Feria de Agosto</h1>
+
+      <div class="custom-audio-player">
+          <audio id="audio-element" src="../audio/Feriadeagosto.mp3"></audio>
+          <button id="audio-play-btn" class="audio-btn">
+            <!-- Play Icon -->
+            <svg id="play-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path d="M8 5v14l11-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            </svg>
+            <!-- Pause Icon -->
+            <svg id="pause-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" style="display:none;">
+              <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+            </svg>
+          </button>
+          <div class="player-info">
+            <div class="player-header">
+              <span class="player-title">Escuchar audioguía</span>
+              <span id="player-time" class="player-time">-0:00</span>
+            </div>
+            <div id="player-progress-container" class="progress-bar-container">
+              <div id="player-progress" class="progress-bar-fill"></div>
+            </div>
+          </div>
+         </div>
+
+      <div class="story-content">
+        <p class="detail-short-desc">La gran fiesta del verano con música, baile y diversión para todos.</p>
+        <div>
+          <p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Cada agosto, Herrera del Duque se llena de vida, música y tradición con su Feria de Agosto, la celebración más esperada del municipio y un punto de encuentro para vecinos, visitantes y herrereños que regresan al pueblo para reencontrarse con sus raíces.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">La feria gira en torno al 15 de agosto y arranca con el pregón de fiestas en la Plaza de España, seguido de fuegos fireworks y el encendido del recinto ferial, que marca oficialmente el inicio de la celebración. A partir de ese momento, el pueblo se transforma: música, atracciones y gastronomía llenan las calles y el recinto, creando un ambiente único que mezcla lo tradicional con propuestas modernas para todos los públicos.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">La Feria de Agosto no es solo diversión nocturna: también ofrece actividades culturales y familiares. Los cabezudos recorren las calles en pasacalles llenos de música y color, mientras la llamada “feria de día” convierte plazas y avenidas en escenarios de conciertos y actuaciones desde la tarde hasta la noche.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">La feria también mantiene viva una de las tradiciones más arraigada de la región: la fiesta taurina, con corridas de toros, novilladas y otros festejos que atraen a aficionados de distintos lugares y forman parte del calendario festivo local desde hace años.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Con espectáculos y actividades para todas las edades, la Feria de Agosto de Herrera del Duque es mucho más que una celebración: es un regreso al hogar. Para muchas familias, estos días son una oportunidad para reunirse, compartir cultura, gastronomía y momentos que forman parte de la memoria colectiva del pueblo.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">La Feria de Agosto no solo se vive, se siente. Una fiesta que mezcla historia, tradición, música y emoción, y que cada verano demuestra que las ferias de los pueblos siguen siendo el corazón de la vida local. Cuando llega agosto a Herrera del Duque… la fiesta está asegurada.</p>
+        </div>
+      </div>
+
+      <div class="gallery-container">
+          <h3 class="gallery-title">Galería de fotos</h3>
+          <div class="gallery-grid">
+
+                <div class="gallery-item" onclick="openLightbox('../images/feria_agosto/IMG_5378.jpg')">
+                  <img src="../images/feria_agosto/IMG_5378.jpg" alt="Rincón de Feria de Agosto" class="gallery-img" onerror="this.src='https://picsum.photos/seed/0/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/feria_agosto/IMG_5493.jpg')">
+                  <img src="../images/feria_agosto/IMG_5493.jpg" alt="Rincón de Feria de Agosto" class="gallery-img" onerror="this.src='https://picsum.photos/seed/1/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/feria_agosto/IMG_5764.jpg')">
+                  <img src="../images/feria_agosto/IMG_5764.jpg" alt="Rincón de Feria de Agosto" class="gallery-img" onerror="this.src='https://picsum.photos/seed/2/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/feria_agosto/IMG_6244.jpg')">
+                  <img src="../images/feria_agosto/IMG_6244.jpg" alt="Rincón de Feria de Agosto" class="gallery-img" onerror="this.src='https://picsum.photos/seed/3/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/feria_agosto/IMG_6426.jpg')">
+                  <img src="../images/feria_agosto/IMG_6426.jpg" alt="Rincón de Feria de Agosto" class="gallery-img" onerror="this.src='https://picsum.photos/seed/4/400/400'">
+                </div>
+
+          </div>
+         </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-logo">IES Benazaire · Ayuntamiento de Herrera del Duque</div>
+      <p>Una audioguía turística interactiva para que conozcas la esencia de nuestra tierra.</p>
+      <div class="footer-meta">Un proyecto Aprendizaje-Servicio de los alumnos/as del IES Benazaire.</div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close">&times;</button>
+    <img id="lightbox-img" class="lightbox-content" src="" alt="">
+  </div>
+
+  <script>
+    // Lightbox handling
+    function openLightbox(src) {
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      lightboxImg.src = src;
+      lightbox.style.display = 'flex';
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+
+    // Audio Player vanilla logic
+    const audio = document.getElementById('audio-element');
+    const playBtn = document.getElementById('audio-play-btn');
+    const playIcon = document.getElementById('play-icon');
+    const pauseIcon = document.getElementById('pause-icon');
+    const playerTime = document.getElementById('player-time');
+    const progressFill = document.getElementById('player-progress');
+    const progressContainer = document.getElementById('player-progress-container');
+
+    function formatTime(time) {
+      if (isNaN(time) || !isFinite(time)) return "0:00";
+      const minutes = Math.floor(time / 60);
+      const seconds = Math.floor(time % 60);
+      return minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
+    }
+
+    if (audio) {
+      audio.addEventListener('loadedmetadata', function() {
+        playerTime.textContent = "-" + formatTime(audio.duration);
+      });
+
+      audio.addEventListener('timeupdate', function() {
+        const current = audio.currentTime;
+        const duration = audio.duration || 1;
+        const pct = (current / duration) * 100;
+        progressFill.style.width = pct + "%";
+
+        const remaining = duration - current;
+        playerTime.textContent = "-" + formatTime(remaining);
+      });
+
+      audio.addEventListener('ended', function() {
+        playIcon.style.display = 'block';
+        pauseIcon.style.display = 'none';
+        progressFill.style.width = '0%';
+        playerTime.textContent = "-" + formatTime(audio.duration);
+      });
+
+      playBtn.addEventListener('click', function() {
+        if (audio.paused) {
+          audio.play().then(function() {
+            playIcon.style.display = 'none';
+            pauseIcon.style.display = 'block';
+          }).catch(function(err) {
+            console.error("Audio playback blocked or failed:", err);
+          });
+        } else {
+          audio.pause();
+          playIcon.style.display = 'block';
+          pauseIcon.style.display = 'none';
+        }
+      });
+
+      if (progressContainer) {
+        progressContainer.addEventListener('click', function(e) {
+          const rect = progressContainer.getBoundingClientRect();
+          const clickX = e.clientX - rect.left;
+          const width = rect.width;
+          const pct = clickX / width;
+          const seekTime = pct * (audio.duration || 0);
+          audio.currentTime = seekTime;
+        });
+      }
+    }
+  </script>
+
+</body>
+</html>

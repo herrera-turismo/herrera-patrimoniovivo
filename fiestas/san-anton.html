@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>San Antón - Herrera del Duque</title>
+  <link rel="stylesheet" href="../estilos.css">
+</head>
+<body class="detail-body">
+
+  <!-- Floating Back Button -->
+  <a href="../index.html" class="btn-back-floating" title="Volver a Portada">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m15 18-6-6 6-6"/>
+    </svg>
+  </a>
+
+  <!-- Header Banner Section -->
+  <header class="detail-hero">
+    <img src="../images/sananton.jpg" alt="San Antón" class="detail-hero-img" onerror="this.src='https://picsum.photos/seed/festival-5/800/500'">
+    <div class="detail-hero-overlay"></div>
+  </header>
+
+  <!-- Centered Content card with Overlap -->
+  <main class="container">
+    <article class="detail-card">
+      <div class="detail-category-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+        <span class="font-raleway" style="font-size:0.875rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase;">Fiestas</span>
+      </div>
+
+      <h1 class="detail-title">San Antón</h1>
+
+      <div class="custom-audio-player">
+          <audio id="audio-element" src="../audio/sananton.mp3"></audio>
+          <button id="audio-play-btn" class="audio-btn">
+            <!-- Play Icon -->
+            <svg id="play-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path d="M8 5v14l11-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            </svg>
+            <!-- Pause Icon -->
+            <svg id="pause-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" style="display:none;">
+              <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+            </svg>
+          </button>
+          <div class="player-info">
+            <div class="player-header">
+              <span class="player-title">Escuchar audioguía</span>
+              <span id="player-time" class="player-time">-0:00</span>
+            </div>
+            <div id="player-progress-container" class="progress-bar-container">
+              <div id="player-progress" class="progress-bar-fill"></div>
+            </div>
+          </div>
+         </div>
+
+      <div class="story-content">
+        <p class="detail-short-desc">La bendición de los animales y las tradicionales hogueras.</p>
+        <div>
+          <p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">La Fiesta de San Antón, celebrada el 17 de enero en el pintoresco pueblo de Peloche, es una manifestación única de tradición, devoción y cultura popular que ha sido transmitida de generación en generación. Reconocida en 2022 como Bien de Interés Cultural en la categoría de Patrimonio Cultural Inmaterial por la Junta de Extremadura, esta festividad no solo preserva las costumbres autóctonas de la localidad, sino que también refleja el profundo vínculo de la comunidad con sus raíces históricas.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">El día comienza al amanecer, cuando los danzantes, con su característico atuendo tradicional, recorren las calles del pueblo al son de la música, despertando a los vecinos y solicitando el aguinaldo a cambio de un chupito de aguardiente. Este es un acto simbólico que marca el inicio de una jornada de fiesta y unión. Tras la animada solicitud de aguinaldo, los danzantes se dirigen a la casa del mayordomo, donde disfrutan de un desayuno típico: las "migas del santo".</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">A las 12 del mediodía, la festividad se traslada a la iglesia del pueblo, donde se celebra una misa en honor de San Antonio, patrón de Peloche. Durante la ceremonia religiosa, los fieles rinden homenaje al santo, mientras que las autoridades locales y los danzantes se preparan para la procesión que recorrerá las calles del pueblo.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Una de las tradiciones más esperadas es la subasta de dulces típicos, que se lleva a cabo después de la procesión y la misa. Entre los dulces más populares se encuentran los "canutos" y las "roscas", que son elaborados con recetas tradicionales y que se venden para el disfrute de los asistentes.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Compuesto por una camisa de chorreras, un chaleco y una mantilla con flecos atada a la cintura, el atuendo resalta la tradición y el folclore de la región. Los danzantes también llevan cascabeles en los calcetines, cuya sonoridad acompaña el ritmo de las castañuelas y la guitarra, creando un ambiente festivo y lleno de energía.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">La festividad de San Antón se extiende durante todo el día, llenando las calles de Peloche de música, alegría y color. Las actuaciones musicales y los fuegos artificiales son el colofón perfecto para una jornada de celebraciones que atrae tanto a locales como a visitantes. La fiesta no solo es una oportunidad para disfrutar de la música y los bailes, sino también una forma de mantener viva una tradición que ha sido reconocida como patrimonio cultural inmaterial.</p>
+        </div>
+      </div>
+
+      <div class="gallery-container">
+          <h3 class="gallery-title">Galería de fotos</h3>
+          <div class="gallery-grid">
+
+            <div class="gallery-item" onclick="openLightbox('../images/santanton1.png')">
+              <img src="../images/santanton1.png" alt="Rincón de La Iluminaria" class="gallery-img" onerror="this.src='https://picsum.photos/seed/0/400/400'">
+            </div>
+
+            <div class="gallery-item" onclick="openLightbox('../images/santanton2.png')">
+              <img src="../images/santanton2.png" alt="Rincón de La Iluminaria" class="gallery-img" onerror="this.src='https://picsum.photos/seed/0/400/400'">
+            </div>
+
+            <div class="gallery-item" onclick="openLightbox('../images/santanton3.png')">
+              <img src="../images/santanton3.png" alt="Rincón de La Iluminaria" class="gallery-img" onerror="this.src='https://picsum.photos/seed/0/400/400'">
+            </div>
+
+
+
+
+          </div>
+         </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-logo">IES Benazaire · Ayuntamiento de Herrera del Duque</div>
+      <p>Una audioguía turística interactiva para que conozcas la esencia de nuestra tierra.</p>
+      <div class="footer-meta">Un proyecto Aprendizaje-Servicio de los alumnos/as del IES Benazaire.</div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close">&times;</button>
+    <img id="lightbox-img" class="lightbox-content" src="" alt="">
+  </div>
+
+  <script>
+    // Lightbox handling
+    function openLightbox(src) {
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      lightboxImg.src = src;
+      lightbox.style.display = 'flex';
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+
+    // Audio Player vanilla logic
+    const audio = document.getElementById('audio-element');
+    const playBtn = document.getElementById('audio-play-btn');
+    const playIcon = document.getElementById('play-icon');
+    const pauseIcon = document.getElementById('pause-icon');
+    const playerTime = document.getElementById('player-time');
+    const progressFill = document.getElementById('player-progress');
+    const progressContainer = document.getElementById('player-progress-container');
+
+    function formatTime(time) {
+      if (isNaN(time) || !isFinite(time)) return "0:00";
+      const minutes = Math.floor(time / 60);
+      const seconds = Math.floor(time % 60);
+      return minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
+    }
+
+    if (audio) {
+      audio.addEventListener('loadedmetadata', function() {
+        playerTime.textContent = "-" + formatTime(audio.duration);
+      });
+
+      audio.addEventListener('timeupdate', function() {
+        const current = audio.currentTime;
+        const duration = audio.duration || 1;
+        const pct = (current / duration) * 100;
+        progressFill.style.width = pct + "%";
+
+        const remaining = duration - current;
+        playerTime.textContent = "-" + formatTime(remaining);
+      });
+
+      audio.addEventListener('ended', function() {
+        playIcon.style.display = 'block';
+        pauseIcon.style.display = 'none';
+        progressFill.style.width = '0%';
+        playerTime.textContent = "-" + formatTime(audio.duration);
+      });
+
+      playBtn.addEventListener('click', function() {
+        if (audio.paused) {
+          audio.play().then(function() {
+            playIcon.style.display = 'none';
+            pauseIcon.style.display = 'block';
+          }).catch(function(err) {
+            console.error("Audio playback blocked or failed:", err);
+          });
+        } else {
+          audio.pause();
+          playIcon.style.display = 'block';
+          pauseIcon.style.display = 'none';
+        }
+      });
+
+      if (progressContainer) {
+        progressContainer.addEventListener('click', function(e) {
+          const rect = progressContainer.getBoundingClientRect();
+          const clickX = e.clientX - rect.left;
+          const width = rect.width;
+          const pct = clickX / width;
+          const seekTime = pct * (audio.duration || 0);
+          audio.currentTime = seekTime;
+        });
+      }
+    }
+  </script>
+
+</body>
+</html>
