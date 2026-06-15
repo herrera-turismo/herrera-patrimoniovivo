@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Caldereta - Herrera del Duque</title>
+  <link rel="stylesheet" href="../estilos.css">
+</head>
+<body class="detail-body">
+
+  <!-- Floating Back Button -->
+  <a href="../index.html" class="btn-back-floating" title="Volver a Portada">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m15 18-6-6 6-6"/>
+    </svg>
+  </a>
+
+  <!-- Header Banner Section -->
+  <header class="detail-hero">
+    <img src="../images/caldereta.jpg" alt="La Caldereta" class="detail-hero-img" onerror="this.src='https://picsum.photos/seed/gastronomy-4/800/500'">
+    <div class="detail-hero-overlay"></div>
+  </header>
+
+  <!-- Centered Content card with Overlap -->
+  <main class="container">
+    <article class="detail-card">
+      <div class="detail-category-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path><path d="M7 2v20"></path><path d="M21 15V2v0a5 5 0 0 0-5 5v8c0 1.1.9 2 2 2h3Z"></path><path d="M18 17v5"></path></svg>
+        <span class="font-raleway" style="font-size:0.875rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase;">Gastronomía</span>
+      </div>
+
+      <h1 class="detail-title">La Caldereta</h1>
+
+      <div class="custom-audio-player">
+          <audio id="audio-element" src="../audio/caldereta.mp3"></audio>
+          <button id="audio-play-btn" class="audio-btn">
+            <!-- Play Icon -->
+            <svg id="play-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path d="M8 5v14l11-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            </svg>
+            <!-- Pause Icon -->
+            <svg id="pause-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" style="display:none;">
+              <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+            </svg>
+          </button>
+          <div class="player-info">
+            <div class="player-header">
+              <span class="player-title">Escuchar audioguía</span>
+              <span id="player-time" class="player-time">-0:00</span>
+            </div>
+            <div id="player-progress-container" class="progress-bar-container">
+              <div id="player-progress" class="progress-bar-fill"></div>
+            </div>
+          </div>
+         </div>
+
+      <div class="story-content">
+        <p class="detail-short-desc">El guiso de cordero más emblemático de la cocina extremeña.</p>
+        <div>
+          <p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Deténgase un momento y deje que el aroma le envuelva. En Herrera del Duque, la gastronomía no es solo alimento; es un rito que se huele, se saborea y, sobre todo, se comparte. Le invitamos a descubrir el plato más representativo de nuestra identidad: la caldereta de cordero.</p>
+<h2 class="serif text-3xl font-bold mt-10 mb-5 text-[#1a1a1a]">Una receta con acento propio: El sello de La Siberia</h2>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Aunque la caldereta es el referente gastronómico por excelencia de la región de Extremadura, en Herrera del Duque, en plena Reserva de la Biosfera de La Siberia, el plato adquiere matices únicos que lo distinguen de otras variantes:</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Cordero frente a Cabrito: A diferencia de las zonas del norte extremeño (como las Hurdes o Sierra de Gata) donde es muy común el uso del cabrito, en Herrera apostamos por la intensidad y ternura del cordero, criado en las dehesas que rodean nuestros embalses.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">El secreto del Majado: El rasgo distintivo de nuestra cocina es la densidad y untuosidad de su salsa. Mientras que en otros puntos de la región se opta por guisos más ligeros, aquí utilizamos el majado de hígado. Se asan las vísceras y se machacan en el mortero con ajos fritos, pimienta y un toque de vino blanco o vinagre. Este proceso "liga" la salsa, dándole su característico color pardo y un sabor profundo.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Ingredientes de proximidad: El uso del aceite de oliva virgen extra de la zona y el imprescindible Pimentón de la Vera completan una receta que es puro paisaje en el plato.</p>
+<h2 class="serif text-3xl font-bold mt-10 mb-5 text-[#1a1a1a]">Valor Patrimonial: Un legado de pastores</h2>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">La caldereta no nació en las cocinas de la nobleza, sino al aire libre, bajo el cobijo de una encina. Es un tesoro del patrimonio cultural inmaterial de Extremadura que hunde sus raíces en la vida de los pastores trashumantes.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Desde un punto de vista histórico, este era un plato de supervivencia. Los pastores, que pasaban meses lejos de sus hogares, utilizaban herramientas mínimas: una caldera de hierro, fuego de leña y los ingredientes básicos que podían transportar en sus alforjas. Cuando un animal no podía seguir el ritmo del rebaño, se convertía en el sustento del grupo, cocinado lentamente para ablandar la carne.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Hoy, ese origen humilde es el que otorga al plato su valor más auténtico: representa el aprovechamiento máximo de los recursos y la sabiduría de un pueblo que convirtió la necesidad en un arte social.</p>
+<h2 class="serif text-3xl font-bold mt-10 mb-5 text-[#1a1a1a]">Mucho más que un plato</h2>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">En cada casa y en cada celebración de Herrera del Duque, la caldereta sigue siendo el vínculo que reúne a familias, amigos y visitantes. Cada cucharada es un viaje por la historia de un pueblo que sabe honrar sus raíces y su forma de entender la vida: con calma, respeto a la tierra y una hospitalidad inmensa.</p>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Si tiene la oportunidad, déjese llevar por su sabor. Porque en la caldereta de Herrera del Duque, no solo se degusta un guiso; se vive nuestra tradición.</p>
+        </div>
+      </div>
+
+      <div class="gallery-container">
+          <h3 class="gallery-title">Galería de fotos</h3>
+          <div class="gallery-grid">
+
+                <div class="gallery-item" onclick="openLightbox('../images/caldereta/calde1.jpg')">
+                  <img src="../images/caldereta/calde1.jpg" alt="Rincón de La Caldereta" class="gallery-img" onerror="this.src='https://picsum.photos/seed/0/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/caldereta/calde2.jpg')">
+                  <img src="../images/caldereta/calde2.jpg" alt="Rincón de La Caldereta" class="gallery-img" onerror="this.src='https://picsum.photos/seed/1/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/caldereta/calde3.jpg')">
+                  <img src="../images/caldereta/calde3.jpg" alt="Rincón de La Caldereta" class="gallery-img" onerror="this.src='https://picsum.photos/seed/2/400/400'">
+                </div>
+
+          </div>
+         </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-logo">IES Benazaire · Ayuntamiento de Herrera del Duque</div>
+      <p>Una audioguía turística interactiva para que conozcas la esencia de nuestra tierra.</p>
+      <div class="footer-meta">Un proyecto Aprendizaje-Servicio de los alumnos/as del IES Benazaire.</div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close">&times;</button>
+    <img id="lightbox-img" class="lightbox-content" src="" alt="">
+  </div>
+
+  <script>
+    // Lightbox handling
+    function openLightbox(src) {
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      lightboxImg.src = src;
+      lightbox.style.display = 'flex';
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+
+    // Audio Player vanilla logic
+    const audio = document.getElementById('audio-element');
+    const playBtn = document.getElementById('audio-play-btn');
+    const playIcon = document.getElementById('play-icon');
+    const pauseIcon = document.getElementById('pause-icon');
+    const playerTime = document.getElementById('player-time');
+    const progressFill = document.getElementById('player-progress');
+    const progressContainer = document.getElementById('player-progress-container');
+
+    function formatTime(time) {
+      if (isNaN(time) || !isFinite(time)) return "0:00";
+      const minutes = Math.floor(time / 60);
+      const seconds = Math.floor(time % 60);
+      return minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
+    }
+
+    if (audio) {
+      audio.addEventListener('loadedmetadata', function() {
+        playerTime.textContent = "-" + formatTime(audio.duration);
+      });
+
+      audio.addEventListener('timeupdate', function() {
+        const current = audio.currentTime;
+        const duration = audio.duration || 1;
+        const pct = (current / duration) * 100;
+        progressFill.style.width = pct + "%";
+
+        const remaining = duration - current;
+        playerTime.textContent = "-" + formatTime(remaining);
+      });
+
+      audio.addEventListener('ended', function() {
+        playIcon.style.display = 'block';
+        pauseIcon.style.display = 'none';
+        progressFill.style.width = '0%';
+        playerTime.textContent = "-" + formatTime(audio.duration);
+      });
+
+      playBtn.addEventListener('click', function() {
+        if (audio.paused) {
+          audio.play().then(function() {
+            playIcon.style.display = 'none';
+            pauseIcon.style.display = 'block';
+          }).catch(function(err) {
+            console.error("Audio playback blocked or failed:", err);
+          });
+        } else {
+          audio.pause();
+          playIcon.style.display = 'block';
+          pauseIcon.style.display = 'none';
+        }
+      });
+
+      if (progressContainer) {
+        progressContainer.addEventListener('click', function(e) {
+          const rect = progressContainer.getBoundingClientRect();
+          const clickX = e.clientX - rect.left;
+          const width = rect.width;
+          const pct = clickX / width;
+          const seekTime = pct * (audio.duration || 0);
+          audio.currentTime = seekTime;
+        });
+      }
+    }
+  </script>
+
+</body>
+</html>

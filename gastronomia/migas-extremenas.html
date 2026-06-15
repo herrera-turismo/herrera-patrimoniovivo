@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Migas Extremeñas - Herrera del Duque</title>
+  <link rel="stylesheet" href="../estilos.css">
+</head>
+<body class="detail-body">
+
+  <!-- Floating Back Button -->
+  <a href="../index.html" class="btn-back-floating" title="Volver a Portada">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m15 18-6-6 6-6"/>
+    </svg>
+  </a>
+
+  <!-- Header Banner Section -->
+  <header class="detail-hero">
+    <img src="../images/migas.jpg" alt="Migas Extremeñas" class="detail-hero-img" onerror="this.src='https://picsum.photos/seed/gastronomy-6/800/500'">
+    <div class="detail-hero-overlay"></div>
+  </header>
+
+  <!-- Centered Content card with Overlap -->
+  <main class="container">
+    <article class="detail-card">
+      <div class="detail-category-header">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path><path d="M7 2v20"></path><path d="M21 15V2v0a5 5 0 0 0-5 5v8c0 1.1.9 2 2 2h3Z"></path><path d="M18 17v5"></path></svg>
+        <span class="font-raleway" style="font-size:0.875rem; font-weight:700; letter-spacing:0.1em; text-transform:uppercase;">Gastronomía</span>
+      </div>
+
+      <h1 class="detail-title">Migas Extremeñas</h1>
+
+      <div class="custom-audio-player">
+          <audio id="audio-element" src="../audio/migas.mp3"></audio>
+          <button id="audio-play-btn" class="audio-btn">
+            <!-- Play Icon -->
+            <svg id="play-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path d="M8 5v14l11-7z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+            </svg>
+            <!-- Pause Icon -->
+            <svg id="pause-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" style="display:none;">
+              <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+            </svg>
+          </button>
+          <div class="player-info">
+            <div class="player-header">
+              <span class="player-title">Escuchar audioguía</span>
+              <span id="player-time" class="player-time">-0:00</span>
+            </div>
+            <div id="player-progress-container" class="progress-bar-container">
+              <div id="player-progress" class="progress-bar-fill"></div>
+            </div>
+          </div>
+         </div>
+
+      <div class="story-content">
+        <p class="detail-short-desc">El plato pastoril por excelencia, sencillo y delicioso.</p>
+        <div>
+          <h2 class="serif text-3xl font-bold mt-10 mb-5 text-[#1a1a1a]">Un plato emblemático</h2>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Las migas extremeñas son uno de los platos más representativos de la gastronomía tradicional de Extremadura, y en Herrera del Duque ocupan un lugar muy especial tanto en la cocina como en la vida social del municipio.</p>
+<h2 class="serif text-3xl font-bold mt-10 mb-5 text-[#1a1a1a]">Origen humilde y tradición</h2>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Se trata de una receta de origen humilde, nacida del aprovechamiento del pan duro por parte de pastores y trabajadores del campo. Con ingredientes sencillos —pan asentado, ajo, aceite de oliva y pimentón— se elabora un plato sabroso, energético y profundamente ligado a la historia rural de la región. En Herrera del Duque, esta tradición se ha mantenido viva durante generaciones, transmitiéndose de padres a hijos.</p>
+<h2 class="serif text-3xl font-bold mt-10 mb-5 text-[#1a1a1a]">Preparación y acompañamiento</h2>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Lo que hace únicas a las migas en esta localidad es su forma de preparación y acompañamiento. Es habitual que se cocinen lentamente en grandes sartenes, removiéndolas con paciencia hasta conseguir una textura suelta y dorada. Se suelen servir con productos típicos de la zona como torreznos, chorizo o panceta, y en muchas ocasiones se combinan con uvas, melón o incluso sardinas, creando un contraste de sabores muy característico.</p>
+<h2 class="serif text-3xl font-bold mt-10 mb-5 text-[#1a1a1a]">Componente social</h2>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">Más allá de la receta, las migas tienen un fuerte componente social. En Herrera del Duque son protagonistas en fiestas, reuniones familiares y eventos populares, donde se elaboran en grupo y se comparten entre vecinos y visitantes. Este acto de cocinar y comer juntos refuerza los lazos comunitarios y convierte el plato en una experiencia cultural, no solo gastronómica.</p>
+<h2 class="serif text-3xl font-bold mt-10 mb-5 text-[#1a1a1a]">Expresión de identidad</h2>
+<p class="font-raleway leading-relaxed text-gray-700 text-justify mb-5 text-base md:text-lg">En definitiva, las migas extremeñas en Herrera del Duque no son solo un alimento: son una expresión de identidad, tradición y convivencia que permite al visitante acercarse de forma auténtica a la esencia del lugar.</p>
+        </div>
+      </div>
+
+      <div class="gallery-container">
+          <h3 class="gallery-title">Galería de fotos</h3>
+          <div class="gallery-grid">
+
+                <div class="gallery-item" onclick="openLightbox('../images/migas/migas1.jpg')">
+                  <img src="../images/migas/migas1.jpg" alt="Rincón de Migas Extremeñas" class="gallery-img" onerror="this.src='https://picsum.photos/seed/0/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/migas/migas_2.jpg')">
+                  <img src="../images/migas/migas_2.jpg" alt="Rincón de Migas Extremeñas" class="gallery-img" onerror="this.src='https://picsum.photos/seed/1/400/400'">
+                </div>
+
+
+                <div class="gallery-item" onclick="openLightbox('../images/migas/migas_3.jpg')">
+                  <img src="../images/migas/migas_3.jpg" alt="Rincón de Migas Extremeñas" class="gallery-img" onerror="this.src='https://picsum.photos/seed/2/400/400'">
+                </div>
+
+          </div>
+         </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+      <div class="container">
+        <div class="footer-logo">IES Benazaire · Ayuntamiento de Herrera del Duque</div>
+        <p>Una audioguía turística interactiva para que conozcas la esencia de nuestra tierra.</p>
+        <div class="footer-meta">Un proyecto Aprendizaje-Servicio de los alumnos/as del IES Benazaire.</div>
+      </div>
+    </footer>
+
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <button class="lightbox-close">&times;</button>
+    <img id="lightbox-img" class="lightbox-content" src="" alt="">
+  </div>
+
+  <script>
+    // Lightbox handling
+    function openLightbox(src) {
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      lightboxImg.src = src;
+      lightbox.style.display = 'flex';
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+
+    // Audio Player vanilla logic
+    const audio = document.getElementById('audio-element');
+    const playBtn = document.getElementById('audio-play-btn');
+    const playIcon = document.getElementById('play-icon');
+    const pauseIcon = document.getElementById('pause-icon');
+    const playerTime = document.getElementById('player-time');
+    const progressFill = document.getElementById('player-progress');
+    const progressContainer = document.getElementById('player-progress-container');
+
+    function formatTime(time) {
+      if (isNaN(time) || !isFinite(time)) return "0:00";
+      const minutes = Math.floor(time / 60);
+      const seconds = Math.floor(time % 60);
+      return minutes + ":" + (seconds < 10 ? '0' : '') + seconds;
+    }
+
+    if (audio) {
+      audio.addEventListener('loadedmetadata', function() {
+        playerTime.textContent = "-" + formatTime(audio.duration);
+      });
+
+      audio.addEventListener('timeupdate', function() {
+        const current = audio.currentTime;
+        const duration = audio.duration || 1;
+        const pct = (current / duration) * 100;
+        progressFill.style.width = pct + "%";
+
+        const remaining = duration - current;
+        playerTime.textContent = "-" + formatTime(remaining);
+      });
+
+      audio.addEventListener('ended', function() {
+        playIcon.style.display = 'block';
+        pauseIcon.style.display = 'none';
+        progressFill.style.width = '0%';
+        playerTime.textContent = "-" + formatTime(audio.duration);
+      });
+
+      playBtn.addEventListener('click', function() {
+        if (audio.paused) {
+          audio.play().then(function() {
+            playIcon.style.display = 'none';
+            pauseIcon.style.display = 'block';
+          }).catch(function(err) {
+            console.error("Audio playback blocked or failed:", err);
+          });
+        } else {
+          audio.pause();
+          playIcon.style.display = 'block';
+          pauseIcon.style.display = 'none';
+        }
+      });
+
+      if (progressContainer) {
+        progressContainer.addEventListener('click', function(e) {
+          const rect = progressContainer.getBoundingClientRect();
+          const clickX = e.clientX - rect.left;
+          const width = rect.width;
+          const pct = clickX / width;
+          const seekTime = pct * (audio.duration || 0);
+          audio.currentTime = seekTime;
+        });
+      }
+    }
+  </script>
+
+</body>
+</html>
